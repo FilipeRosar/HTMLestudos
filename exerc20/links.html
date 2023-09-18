@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            text-decoration: none; /*tira o sublinhado*/
+            color:#3694d2 ;/*cor do link*/
+            font-weight: bold;
+        }
+        a:visited{
+            color: #5b7c9e;
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+        a::after{
+            content:'[link]';  /*conteúdo que será adicionado após o texto (não pode ser vazio)
+            Seletores Personalizados
+            * = id
+            . = class
+            : - pseudo-class
+            :: pseudo-element
+            > = childrem 
+            */
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgoldenrod;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li>
+            <a href="https://github.com/FilipeRosar" target="_blank">Repositório GitHub</a></li>
+        <li>
+            <a href="https://youtu.be/SIJ2VStbSBI?si=V8eck44r9cx2cLgh">Canal do YouTube</a></li>
+        <li>
+            <a href="https://youtu.be/Xa3NKQEFIC4?si=u-wlg6UY5swbhHR6">Site</a></li>
+    </ul>
+</body>
+</html>
