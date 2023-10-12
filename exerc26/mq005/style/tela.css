@@ -18,7 +18,8 @@ header{
     background-color:#3498db9d ;
 }
 header > h1{
-    text-align: center;  
+    text-align: center;
+    padding: 10px;  
 }
 menu ul{
     list-style-type:none ;
@@ -32,6 +33,7 @@ menu li{
 menu li a{
     text-decoration: none;
     color: white;
+    padding: 10px;
 }
 menu li:hover{
     background-color: #174b6d98;
@@ -50,10 +52,17 @@ span#burguer:hover{
 article{
     width: 700px;
     height: 700px;
+    padding: 10px;
     display: block;
     margin: auto;
     background-color: rgba(240, 233, 233, 0.918);
+    border-radius: 5px;
     box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.377);
+}
+article h2{
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
 }
 article p{
     font-size: 18px;
