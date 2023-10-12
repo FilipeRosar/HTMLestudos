@@ -26,9 +26,8 @@ menu ul{
 }
 menu li{
     background-color: #174a6d;
-    display: inline-block;
     padding: 10px;
-        
+    text-align: center;
 }
 menu li a{
     text-decoration: none;
@@ -36,6 +35,17 @@ menu li a{
 }
 menu li:hover{
     background-color: #174b6d98;
+}
+span#burguer{
+    background-color: #1e4b85;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+span#burguer:hover{
+    background-color: #174b6d98;
+    color: black;
 }
 article{
     width: 700px;
